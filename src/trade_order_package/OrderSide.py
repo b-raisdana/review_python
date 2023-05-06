@@ -1,6 +1,6 @@
-from enum import StrEnum
+from enum import Enum
 
 
-class OrderSide(StrEnum):
+class OrderSide(str, Enum):
     BUY = 'BUY'
     SELL = 'SELL'

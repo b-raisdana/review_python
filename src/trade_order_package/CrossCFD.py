@@ -1,5 +1,5 @@
-from trade_order_package.BaseOrder import _BaseOrder
+from trade_order_package.AbstractOrder import _AbstractBaseOrder
 
 
-class _CrossCFD(_BaseOrder):
+class _CrossCFD(_AbstractBaseOrder):
     leverage: float
