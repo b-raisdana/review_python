@@ -1,6 +1,6 @@
 from pydantic import BaseModel, confloat
 
-from sample_package.BaseOrder import _BaseOrder
+from trade_order_package.BaseOrder import _BaseOrder
 
 
 class _OrderAction:

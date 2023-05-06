@@ -1,6 +1,6 @@
-from sample_package.OrderSide import OrderSide
-from sample_package.BaseOrder import _BaseOrder
-from sample_package._OrderAction import _OrderAction
+from trade_order_package.OrderSide import OrderSide
+from trade_order_package.BaseOrder import _BaseOrder
+from trade_order_package._OrderAction import _OrderAction
 
 
 class _SpotOrder(_BaseOrder):
